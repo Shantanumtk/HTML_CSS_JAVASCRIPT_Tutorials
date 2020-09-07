@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple Selectors</title>
+<style>
+    /*all h2 elements*/
+h2{
+    color:red;
+    text-align: center;
+}
+/*all with class="highlight"*/
+.highlight {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: green;
+    opacity: .6;
+}
+/*elements with id="mainPoint"*/
+#mainPoint {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: red;
+    opacity: .7;
+}
+/*all p and h1 elements */
+p,h1 {
+    color: blue;
+    font-size:20px;
+    text-align: center;
+}
+
+
+</style>   
+</head>
+<body>
+<h1>Simple Selectors (h1)</h1>
+<h2>Subheading 1 (h2)</h2>
+<p class="highlight">
+CSS-Cascading Style Sheets is a style sheet language used for describing the 
+presentation of a document written in a markup language like HTML.
+CSS is a cornerstone technology of the World Wide Web,
+alongside HTML and JavaScript.
+</p>
+<p class="highlight">
+CSS selectors are used to determine which HTML element, or set of elements, to apply the CSS declarations to. 
+The browser uses its selector API to traverse the DOM or Document Object Model,
+and pick out the elements matching the selector. Now crafting a selector is a great skill to have and not only for styling using CSS. 
+That's because a lot of JavaScript libraries out there use the browser selector API to attach behavior and data to HTML elements.     
+</p> 
+<h2>Subheading 2 (h2)</h2>
+<p>
+CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. 
+This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, 
+enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity 
+and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the 
+ pages that share the file and its formatting.    
+</p>
+<div>
+Now crafting a selector is a great skill to have and not only for styling using CSS. That's because a lot of JavaScript 
+libraries out there use the browser selector API to attach behavior and data to HTML elements. 
+Much in the same way that CSS applies style to those elements. In this lecture, 
+we're going to talk about three different types of selectors, element, class, and id selector.
+<span id="mainPoint">id="mainPoint".</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Element with Class Selector</title>
+<style>
+/*all with class="highlight"*/    
+.highlight{
+    background-color: green;
+}
+/*all p elements with class="highlight"*/
+p.highlight {            
+   font-style:italic;
+}
+/*all p elements with class="highlight" as well as with class 'mainpoint'*/
+.highlight.mainPoint {
+    color: red;
+    background-color: black;
+}
+</style>   
+</head>
+<body>
+<h1 class="highlight">Element with Class Selector</h1>
+<p>
+CSS-Cascading Style Sheets is a style sheet language used for describing the 
+presentation of a document written in a markup language like HTML.
+CSS is a cornerstone technology of the World Wide Web,
+alongside HTML and JavaScript.
+</p>
+<p class="highlight">
+This is P with CLASS="highlight"    
+</p>
+<div class ="mainPoint highlight">
+Now crafting a selector is a great skill to have and not only for styling using CSS. That's because a lot of JavaScript 
+libraries out there use the browser selector API to attach behavior and data to HTML elements. 
+Much in the same way that CSS applies style to those elements. In this lecture, 
+we're going to talk about three different types of selectors, element, class, and id selector.
+</div>
+</body>
+</html>
